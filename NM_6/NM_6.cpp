@@ -1,26 +1,11 @@
-#include <iostream>
+#include "QrEq.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	QrEq qreq(1.4, 0.8, pow(10, -6));
+	qreq.SetXY(4, -1);
+	qreq.SetXY(6, -1.5);
+	return 0;
 }
 
-
-double F(double x, double y)
-{
-    return pow(2, x - y) - y - 1;
-}
-double G(double x, double y)
-{
-    return pow(y, 3) + pow(x, 2) - 6 * x + 6;
-}
-
-///     x0 = 1.4    y0 = 0.8
-///
-///     2^(x-y)*ln2     -2^(x-y)*ln2 - 1
-///     
-///     2*x - 6         3y^2-
-/// 
-///
-    
 

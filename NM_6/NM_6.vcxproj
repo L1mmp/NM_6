@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="NM_6.cpp" />
+    <ClCompile Include="QrEq.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QrEq.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
